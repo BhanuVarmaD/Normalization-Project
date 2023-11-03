@@ -1,0 +1,15 @@
+Generated SQL Queries:
+CREATE TABLE FirstName (FirstName VARCHAR(255));
+CREATE TABLE LastName (LastName VARCHAR(255));
+CREATE TABLE ProfessorEmail (ProfessorEmail VARCHAR(255));
+CREATE TABLE CourseStart (CourseStart VARCHAR(255));
+CREATE TABLE CourseEnd (CourseEnd VARCHAR(255));
+CREATE TABLE classroom (classroom VARCHAR(255));
+CREATE TABLE StudentID_FirstName (StudentID INT, FirstName VARCHAR(255), PRIMARY KEY (StudentID), FOREIGN KEY (StudentID) REFERENCES Student (StudentID));
+CREATE TABLE LastName_StudentID (LastName VARCHAR(255), StudentID INT, PRIMARY KEY (StudentID), FOREIGN KEY (StudentID) REFERENCES Student (StudentID));
+CREATE TABLE classroom_Course (classroom VARCHAR(255), Course VARCHAR(255));
+CREATE TABLE CourseStart_Course (CourseStart VARCHAR(255), Course VARCHAR(255));
+CREATE TABLE CourseEnd_Course (CourseEnd VARCHAR(255), Course VARCHAR(255));
+CREATE TABLE Professor_classroom (Professor VARCHAR(255), classroom VARCHAR(255));
+CREATE TABLE Professor_ProfessorEmail (Professor VARCHAR(255), ProfessorEmail VARCHAR(255));
+CREATE TABLE classroom_Course (classroom VARCHAR(255), Course VARCHAR(255));
