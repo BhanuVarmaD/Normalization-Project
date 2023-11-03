@@ -1,7 +1,7 @@
 #Team details
 #Bhanu varma Domaraju (12614674)
-#Gayathri Morampudi
-#Anjali Malge
+#Gayathri Morampudi  (12611695)
+#Anjali Malge  (
 #Somasekhar Vavilapalli
 
 import pandas as pd
