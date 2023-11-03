@@ -1,6 +1,6 @@
 **Team Members**
   `  `  `Bhanu Varma Dommaraju (12614674)  `  `  `
-  `  `  `Gayathri Morampudi ()  `  `  ` 
+  `  `  `Gayathri Morampudi (12611695)  `  `  ` 
   `  `  `Somasekhar Vavilapalli (12598347)  `  `  `  
   `  `  `Anjali Malge (12608914)  `  `  `  
 **Code description and Logic**
