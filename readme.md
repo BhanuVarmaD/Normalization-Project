@@ -1,13 +1,14 @@
 **Team Members**
   `  `  `Bhanu Varma Dommaraju (12614674)  `  `  `
   `  `  `Gayathri Morampudi ()  `  `  ` 
-  `  `  `  
+  `  `  `Somasekhar Vavilapalli (12598347)  `  `  `  
 **Code description and Logic**
 ->Import Libraries: Import the pandas library for DataFrame handling.
 
 ->read_csv_file Function: Read a CSV file and return the data as a DataFrame.
 
 ->determine_data_types Function: Determine data types for each column (INT, DATE, or VARCHAR(255)).
+    
 
 ->Normalization Functions:
 normalize_to_1nf, normalize_to_2nf, normalize_to_3nf, normalize_to_4nf, normalize_to_5nf, normalize_to_bcnf functions perform normalization to the specified normal forms.
